@@ -1,0 +1,248 @@
+body
+{
+	background: #cccccc;
+	display: table;
+  min-height: 750px;
+  table-layout: fixed;
+  width: 100%;
+}
+
+#headerMian
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: calc(100vw * 0.05);
+	background: #ffffff;
+	border-bottom: 5px solid #aaaaaa;
+}
+
+#name
+{
+	font-size: calc(100vw * 0.02);
+	font-family: "Arial Black";
+	font-style: italic;
+	color: #000000;
+	position: absolute;
+	left: 5%;
+}
+
+#Aboutme
+{
+	position: absolute;
+	right: 30%;
+	width: 15%;
+	height: 100%;
+	top: 0;
+	border-bottom: 3px solid #4169e1;
+}
+
+#projects
+{
+	position: absolute;
+	right: 15%;
+	width: 15%;
+	height: 100%;
+	top: 0;
+	border-bottom: 3px solid #aaaaaa;
+}
+
+#projects:hover
+{
+	border-bottom: 3px solid #4169e1;
+}
+
+#connect
+{
+	position: absolute;
+	right: 0%;
+	width: 15%;
+	height: 100%;
+	top: 0;
+	border-bottom: 3px solid #aaaaaa;
+}
+
+#connect:hover
+{
+	border-bottom: 3px solid #4169e1;
+}
+
+a.bott
+{
+	position: absolute;
+	top: 30%;
+}
+
+.link a
+{
+	display: block;
+    height: 100%;
+	text-decoration: none;
+	font-size: calc(100vw * 0.02);
+	font-family: "Arial";
+	position: absolute;
+	color: #000000;
+}
+
+a.bott:hover
+{
+	color: #4169e1;
+}
+
+#main
+{
+	display: table-cell;
+	position: absolute;
+	top: 15%;
+	left: 30%;
+	background: #ffffff;
+	width: 60%;
+	margin-bottom: 5%;
+}
+
+#i
+{
+	width: 100%;
+}
+
+#MyPhoto
+{
+	top: calc(100vw * 0.05);
+	left: 10%;
+	position: absolute;
+	width: 30%;
+}
+
+#infa
+{
+	display: table-cell;
+	position: absolute;
+	top: calc(100vw * 0.02);
+	left: 42%;
+}
+
+h2
+{
+	color:#000000;
+	font-size: calc(100vw * 0.015);
+	margin-top: calc(100vw * 0.03);
+	line-height: 1.5;
+}
+
+h3
+{
+	position: relative;
+	color: #000000;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	font-size: calc(100vw * 0.015);
+	/*margin-top:calc(100vw * 0.28);*/
+}
+
+#text
+{
+	background: #ffffff;
+	position: absolute;
+	top: 70%;
+	left:0;
+	right: 0;
+}
+
+#links
+{
+	display: table-cell;
+	position: fixed;
+	top: 15%;
+	left: 9%;
+	background: #ffffff;
+	width: 20%;
+	bottom: 10%;
+}
+
+.list
+{
+	font-size: calc(100vw * 0.012);
+	color: #000000;
+	text-decoration: none;
+}
+
+.list:hover
+{
+	color: #4169e1;
+}
+
+h4
+{
+	margin-left: 5%;
+	font-size: calc(100vw * 0.015)
+}
+
+h5
+{
+	position: relative;
+	color: #000000;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+	font-size: calc(100vw * 0.02);
+	margin-bottom: 0;
+	font-style: bolder;
+}
+
+h5.qw
+{
+	margin-top:calc(100vw * 0.28);
+}
+
+#f
+{
+	margin-right: 50%;
+}
+
+#s
+{
+	margin-left: 50%;
+}
+
+.fp
+{
+	position: absolute;
+	left: 60%;
+	width: 30%;
+}
+
+.sp
+{
+	position: absolute;
+	left: 10%;
+	width: 30%;
+}
+
+#end
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right:0;
+	background:#ffffff;
+	height: calc(100vw * 0.03);
+	border-top:5px solid #aaaaaa;
+	font-size: calc(100vw * 0.02);
+	
+}
+
+h6
+{
+	margin-left: 10%;
+	margin-top: 1%;
+	color: #444444;
+}
